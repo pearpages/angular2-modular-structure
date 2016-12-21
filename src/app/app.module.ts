@@ -1,12 +1,10 @@
-import {HousesModule} from './houses/houses.module';
-import {CarsModule} from './cars/cars.module';
 import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
 import {FormsModule} from '@angular/forms';
 import {HttpModule} from '@angular/http';
 import {AppComponent} from './app.component';
-import {SharedModule} from './shared/shared.module';
 import {UsersModule} from './users/users.module';
+import {HousesModule} from './houses/houses.module';
 
 @NgModule({
   declarations: [
@@ -16,10 +14,8 @@ import {UsersModule} from './users/users.module';
     BrowserModule,
     FormsModule,
     HttpModule,
-    CarsModule,
-    HousesModule,
-    SharedModule,
-    UsersModule
+    UsersModule,
+    HousesModule
   ],
   providers: [],
   bootstrap: [AppComponent]

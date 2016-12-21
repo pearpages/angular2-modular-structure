@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { House } from '../../houses/models/house'
 
 @Component({
   selector: 'app-car-card',
